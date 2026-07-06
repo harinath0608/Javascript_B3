@@ -53,12 +53,42 @@
 
 // }
 
-for (let i = 1 ; i<=10 ; i++ ) {
+// for (let i = 1 ; i<=10 ; i++ ) {
 
-    if( i === 12){
-        break
-    }
+//     if( i === 12){
+//         break
+//     }
 
-    console.log(i);
+//     console.log(i);
+    
+// }
+
+// for (let i = 1 ; i<=10 ; i++) {
+
+//     if(i % 2 == 0 ){
+//         continue
+//     }
+
+//     console.log(i);
+    
+// }
+
+
+// for (let i = 1 ; i<=5 ; i++) {
+
+//     for (let j = 1 ; j <= 5 ; j++) {
+//         console.log(i,j)
+//     }
+
+// }
+
+let number = prompt ;
+
+for (let i = 1 ; i <= 10 ; i++) {
+    
+    console.log(`${number}x${i}=${ number * i }`);
+    
     
 }
+
+// 2x1=2
